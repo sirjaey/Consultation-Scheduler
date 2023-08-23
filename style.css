@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: bisque;
+    
+}
+.navBar{
+    height: 100px;
+    background-color: beige;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+.mainBody{
+    width: 60%;
+    background-color: rgb(188, 188, 245);
+    margin: auto;
+    padding-top: 100px;
+}
+.bioData{
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.part1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.part1 h5{
+    font-size: 20px;
+    color: black;
+}
+.part1 p{
+    font-size: 16px;
+
+}
+.nom{
+    margin-left: 20px;
+}
+.bio{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;  
+}
+.bioData p{
+    /* margin-bottom: 10px; */
+    font-weight: 600;
+    font-size: 20px;
+}
+.purpose{
+    margin: 20px;
+}
+.purpose p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.appointMent{
+    display: flex;
+    padding: 20px;
+    /* justify-content: space-between; */
+}
+.appointMent p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.time{
+    margin-left: 200px;
+}
+.counSelect{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.counSelect p{
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    font-weight: 600;
+    font-size: 16px;
+}
+.counsellor{
+    display: flex;
+    justify-content: space-between;
+}
+.more{
+    padding: 20px;
+}
+.more p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn{
+    padding: 20px;
+}
+.btn button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: red;
+    font-weight: 500;
+} 
+.btn button:hover{
+    background-color: whitesmoke;
+    color: red;
+    opacity: 0.7;
+}
+.btns{
+    margin-left: -20px;
+}
+#finale{
+    margin-left: 20px;
+    
+}
+#checks{
+    margin-left: 20px;
+    color: red;
+}
+#checkss{
+    margin-left: 20px;
+}
+.navText{
+    padding-top: 30px;
+}
+h1{
+    font-size: 36px;
+}
+.jaey{
+    height: 100px;
+    width: 500px;
+    background-color: transparent;
+    color: blue;
+    margin-left: 200px;
+    font-weight: 700;
+    padding-top: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navText h1{
+        font-size: 24px;
+    }
+    .bioData p{
+        padding-top: 10px;
+        margin-bottom: -10px;
+        font-size: 16px;
+    }
+    .bioData{
+        width: 100%;
+    }
+    .twa{
+        margin-left: 220px;
+        display: none;
+    }
+    .nom{
+        margin-left: -20px;
+    }
+    .bio{
+        margin-right: 30px;
+    }
+    .appointMent{
+        
+    }
+    .dsds p{
+        width: 200px;
+    }
+    .time{
+        margin-left: 30px;
+    }
+    .counSelect{
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+    .mob{
+        padding-bottom: 10px;
+    }
+    .counsellor{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .mainBody{
+        width: 130%;
+    }
+    .navBar{
+        padding-left: 130px;
+        background-color: rgb(188, 188, 245);
+    }
+    .part2{
+        display: block;
+    }
+    body{
+        background-color: rgb(188, 188, 245);
+    }
+    /* .timess{
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: scroll;
+    } */
+    .appointMent{
+        display: block;
+    }
+    .dsds{
+        padding-bottom: 30px;
+    }
+    .time{
+       margin-left: 0px;
+    }
+}

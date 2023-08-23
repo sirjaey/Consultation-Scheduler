@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navBar">
+        <div class="navText"><h1>N-Reach Global Consult</h1></div>
+        
+    </nav>
+    
+    <div class="mainBody">
+        <div class="part1"> 
+            <h5>BOOK AN APPOINTMENT</h5>
+            <P>Welcome to N-Reach Global Consult</P>
+        </div>
+        <div class="bioData">
+            <form action="" class="part2">
+                <p class="formDiv">Fill in your details</p>
+                <div>
+                    <input type="text" class="bio" name="" id="firstName" placeholder="First Name" required>
+                    <input type="text" class="bio nom" id="lastName" placeholder="Last Name" required>
+                    <input type="text" class="bio nom twa" id="phoneNo" placeholder="Phone Number" required>
+                </div>
+                <div>
+                    <input type="text" class="bio" id="email" placeholder="Email Address" required>
+                    <input type="text" class="bio nom" id="address" placeholder="Your Address" required>
+                </div>
+                
+            </form>   
+        </div>
+        <p id="checks"></p>
+        <div class="btn"><button onclick="check ()">Click Here</button></div>
+        <p id="checkss"></p>
+        <div class="purpose">
+            <p>Select purpose of Consultation</p>
+            <select name="" id="consultP">
+                <option value=""></option>
+                <option value="Career">Career</option>
+                <option value="Growth">Growth</option>
+                <option value="Change of Profession">Change of Profession</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+    
+        <div class="appointMent">
+            <div class="dsds">
+                <p>Select Appointment Date</p>
+                <input type="date" id="appointDate">
+            </div>
+            <div class="time">
+                <p>Select Time: 9am to 3pm</p>
+                <select action="" id="times" class="timess">
+                    <option value=""></option>
+                    <option  name="time" value="9am"> 9am </option>
+                    <option  name="time" value="10am"> 10am </option>
+                    <option  name="time" value="11am"> 11am </option>
+                    <option  name="time" value="12pm"> 12pm </option>
+                    <option  name="time" value="1pm"> 1pm </option>
+                    <option  name="time" value="2pm"> 2pm </option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- <div class="btn"><button onclick="check ()">Click Here</button></div> -->
+        
+
+        <div class="counSelect">
+            <p>Select a Counsellor based on the purpose of Consultation </p>
+            <div class="counsellor">
+                <div class="mob">
+                    <p>CAREER</p>
+                    <select name="career" id="consultants"> 
+                        <option value=""></option>CAREER
+                        <option value="Dr Precious Nwachukwu" name="one">Dr Precious Nwachukwu</option>
+                        <option value="Mr Harry Emmanuel" name="one">Mr Harry Emmanuel</option>
+                        <option value="Mrs Stella Bakare" name="one">Mrs Stella Bakare</option>
+                    </select>
+                </div>
+                <div class="mob">
+                    <p>GROWTH</p>
+                    <select name="Growth" id="consultants">
+                        <option value=""></option>
+                        <option value="Mr Peterson Sunday" name="one">Mr Peterson Sunday</option>
+                        <option value="Miss Vera Ogban" name="one">Miss Vera Ogban</option>
+                        <option value="Mrs Becky David" name="one">Mrs Becky David</option>
+                    </select>
+                </div>
+                <div class="mob">
+                    <p>CHANGE OF PROFESSION</p>
+                    <select name="Change of Profession" id="consultants">
+                        <option value=""></option>
+                        <option value="Prof SirJaey D-King" name="one">Prof SirJaey D-King</option>
+                        <option value="Dr Chinedu Felix" name="one">Dr Chinedu Felix</option>
+                        <option value="Dr Miracle Peter" name="one">Dr Miracle Peter</option>
+                    </select>
+                </div>
+                <div class="mob">
+                    <p>OTHERS</p>
+                    <select name="Others" id="consultants">
+                        <option value=""></option>
+                        <option value="Dorathy Elumelu" name="one">Dorathy Elumelu</option>
+                        <option value="Dr Dominic Joseph" name="one">Dr Dominic Joseph</option>
+                        <option value="Maris Williams" name="one">Maris Williams</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    
+        <div class="more">
+            <p>More Information</p>
+            <textarea id="comments" rows="4" cols="50" placeholder="Enter brief note for more explanation"></textarea><br>
+        </div>
+        
+        <div class="btn"><button onclick="submit()">SUBMIT</button></div>
+        <div class="jaey"><p id="finale"></p></div>
+        
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
